@@ -1,0 +1,43 @@
+header{
+    background-image: url(./Assets/Hero-bg.png);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+  nav button:hover{
+    background-color:#C6E4D6 ; 
+  }
+
+.banner{
+    
+    text-align: center;
+}
+main{
+    background-color: #F5F8FF;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+}
+.three{
+    text-align: center;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer{
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+}
