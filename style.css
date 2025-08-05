@@ -31,7 +31,14 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    padding: 50px 0px;
     
+}
+
+.logo{
+    font-size: 34;
+    font-weight: 900;
+    color: #4E47FF;
 }
 
 
@@ -39,9 +46,28 @@ nav{
     background-color:#C6E4D6 ; 
   }
 
+header button{
+    padding:12px 36px;
+    font-size:16px;
+    background: #4E47FF;
+    color: #FFFFFF;
+    font-weight:500;
+    border: none;
+    border-radius:10px ;
+}
+
 .banner{
-    
+    width: 900px;
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:150px ;
+    padding-bottom: 150px;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    padding-bottom: 40px;
 }
 main{
     background-color: #F5F8FF;
