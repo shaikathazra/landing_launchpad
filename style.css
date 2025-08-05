@@ -135,7 +135,57 @@ main{
     font-weight: bold;
     padding-bottom: 40px;
 }
-
+.fourtitle{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.ca{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 14px;
+    margin: 0px 20px;
+}
+.catext{
+    padding: 24px 0px;
+}
+.catext h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom:10px ;
+}
+.catext p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.rev{
+    display: flex;
+    align-items: center;
+}
+.revtext{
+    padding-left: 20px;
+}
+.revtext h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+.revtext p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+.rev img{
+    border-radius: 100px;
+    
+}
 .five{
     margin: 100px auto;
     text-align: center;
