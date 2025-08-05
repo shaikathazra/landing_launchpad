@@ -43,7 +43,7 @@ nav{
 
 
   nav button:hover{
-    background-color:#C6E4D6 ; 
+    background-color:#d4950d ; 
   }
 
 header button{
@@ -55,6 +55,9 @@ header button{
     border: none;
     border-radius:10px ;
 }
+header button:hover{
+    background-color:#d4950d ; 
+  }
 
 .banner{
     width: 900px;
@@ -103,6 +106,9 @@ main{
     border: none;
     border-radius:10px ;
 }
+.two-text button:hover{
+    background-color:#d4950d ; 
+  }
 .two-image img{
     border-radius: 48px;
 }
@@ -225,6 +231,9 @@ main{
 
 
 }
+.five-title button:hover{
+    background-color:#d4950d ; 
+  }
 
 .five-image img{
     border-radius: 50px;
@@ -310,6 +319,9 @@ form input[type="text"]{
  input::placeholder {
   color: gray;
 }
+ form input[type="submit"]:hover{
+    background-color:#d4950d ; 
+  }
 
 footer{
     margin: 104px 455px;
