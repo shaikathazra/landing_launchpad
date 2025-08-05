@@ -3,6 +3,18 @@
 	padding: 0px;
 
 }
+.container{
+
+	width: 1140px;
+	margin: 0px auto;
+    
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -45,6 +57,87 @@ main{
     display: flex;
     justify-content: center;
     
+}
+.six{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.six-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+form{
+    width: 500px;
+    margin: 0px auto;
+    
+}
+label{
+    font-size: 18;
+    font-weight:500;
+}
+form input[type="text"]{
+    border: solid;
+    border-width: 1px;
+    border-color:#D6DDED ;
+    background: white;
+    border-radius: 10px ;
+    padding: 18px 40px; 
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+ }
+ form input[type="email"]{
+    border: solid;
+    border-width: 1px;
+    border-color:#D6DDED ;
+    background: white;
+    border-radius:10px  ;
+    padding: 18px 40px; 
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+ }
+ form textarea{
+    border: solid;
+    border-width: 1px;
+    background: white;
+    border-color:#D6DDED ;
+    border-radius:10px ;
+    padding-top: 18px ;
+    padding-bottom: 50px; 
+    padding-left: 40px;
+    padding-right:40px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+ }
+ form input[type="submit"]{
+
+    border: none;
+    background:  #4E47FF;
+    color: #FFFFFF;
+    border-radius:10px ;
+    padding: 18px 40px; 
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 97%;
+    
+ }
+ input::placeholder {
+  color: gray;
 }
 
 footer{
