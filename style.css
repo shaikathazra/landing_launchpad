@@ -45,12 +45,43 @@ nav{
 }
 main{
     background-color: #F5F8FF;
+
 }
 .two{
+    padding-top: 116px;
+    margin-bottom: 116px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.two-text{
+    width: 517px;
+}
+.two-text h3{
+    font-size:42px ;
+    font-weight: bold;
+}
+.two-text p{
+    font: size 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+    padding: 23px 0px;
+
+}
+.two-text button{
+    padding:12px 36px;
+    font-size:16px;
+    background: #4E47FF;
+    color: #FFFFFF;
+    font-weight:500;
+    border: none;
+    border-radius:10px ;
+}
+.two-image img{
+    border-radius: 48px;
 }
 .three{
+    margin-bottom: 140px;
     text-align: center;
     background-color:rgba(78, 71, 255, 0.1) ;
     border-radius: 24px;
